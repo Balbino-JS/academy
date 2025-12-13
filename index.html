@@ -8,8 +8,10 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/vanilla-tilt@1.8.1/dist/vanilla-tilt.min.js"></script>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
 <header>
@@ -88,8 +90,15 @@
   © 2025 PowerFit Academia – Todos os direitos reservados
 </footer>
 
-</body>
-</html>
 
 </body>
+  <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".plan"), {
+         max: 25,
+         speed:400,
+         glare:true,
+         "max-glare": 1
+        })
+     </script>
 </html>
