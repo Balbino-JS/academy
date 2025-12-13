@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/vanilla-tilt@1.8.1/dist/vanilla-tilt.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanilla-tilt@1.8.1/dist/vanilla-tilt.min.js"></script>
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -74,6 +75,20 @@
   </div>
 </section>
 
+<!-- BOTÃO FLUTUANTE WHATSAPP -->
+<a
+  href="https://wa.me/5511999999999?text=Olá!%20Quero%20saber%20mais%20sobre%20os%20planos%20da%20academia."
+  class="whatsapp-float tilt"
+  target="_blank"
+  aria-label="Fale conosco no WhatsApp"
+>
+  <span class="whatsapp-badge">Fale conosco</span>
+  <img
+    src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/whatsapp.svg"
+    alt="WhatsApp"
+  />
+</a>
+
 <section id="contato">
   <div class="container">
     <div class="contact">
@@ -92,6 +107,19 @@
 
 
 </body>
+
+<!-- BOTÃO FLUTUANTE WHATSAPP -->
+ <script>
+  VanillaTilt.init(document.querySelectorAll(".tilt"), {
+    max: 20,
+    speed: 400,
+    scale: 1.1,
+    glare: true,
+    "max-glare": 0.35,
+  });
+</script>
+
+
   <script type="text/javascript" src="vanilla-tilt.js"></script>
     <script>
         VanillaTilt.init(document.querySelectorAll(".plan"), {
